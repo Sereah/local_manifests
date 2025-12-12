@@ -1,0 +1,11 @@
+<manifest>
+    <remove-project name="platform/packages/modules/Bluetooth" />
+
+    <!-- 指向你的 GitHub 仓库 -->
+    <remote name="github" fetch="https://github.com/" />
+
+    <project path="packages/modules/Bluetooth"
+             name="Sereah/Bluetooth"
+             remote="github"
+             revision="master" />
+</manifest>
