@@ -1,0 +1,24 @@
+<manifest>
+    <remote name="github" fetch="https://github.com/" />
+
+    <project path="vendor/lunacattus/apps/Glacien"
+             name="Sereah/Glacien"
+             remote="github"
+             revision="master" />
+
+    <project path="vendor/lunacattus/mk"
+             name="Sereah/lunacattus-mk"
+             remote="github"
+             revision="master" />
+
+    <project path="vendor/lunacattus/libs"
+             name="Sereah/lunacattus-libs"
+             remote="github"
+             revision="master" />
+
+    <project path="vendor/lunacattus/script"
+             name="Sereah/lunacattus-script"
+             remote="github"
+             revision="master" />
+
+</manifest>
