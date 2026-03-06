@@ -1,0 +1,12 @@
+<manifest>
+    <!-- 移除官方 -->
+    <remove-project name="platform/system/sepolicy" />
+
+    <!-- 指向你的 GitHub 仓库 -->
+    <remote name="github" fetch="https://github.com/" />
+
+    <project path="system/sepolicy"
+             name="Sereah/sepolicy"
+             remote="github"
+             revision="master" />
+</manifest>
