@@ -1,0 +1,11 @@
+<manifest>
+    <remove-project name="platform/packages/apps/Settings" />
+
+    <!-- 指向你的 GitHub 仓库 -->
+    <remote name="github" fetch="https://github.com/" />
+
+    <project path="packages/apps/Settings"
+             name="Sereah/Settings"
+             remote="github"
+             revision="master" />
+</manifest>
